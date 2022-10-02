@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+#search-input-label {
+  font-size: 25px;
+  font-weight: 800;
+  display: block;
+
+}
+
+#search-input {
+  border: 2px solid rgba(0, 0, 0, 0.63);
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+#search-input:hover {
+  cursor: text;
+}
+
+::placeholder {
+  font-style: italic;
+  font-size: 16px;
+}
+
+
+.container {
+  background-color: rgba(0, 0, 0, 0.63);
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.search-area {
+  background-color: #00ffaae8;
+
+}
+
+#users-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 5px;
+  
+}
+
+li {
+  background-color: #fff;
+  padding: 5px;
+  margin: 5px
+}
